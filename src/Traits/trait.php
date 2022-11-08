@@ -2,9 +2,10 @@
 
 namespace Alma88\DemoPhp\Traits;
 
-trait hellow{
-function hellow()
+trait hellow
 {
-    echo "hellow" . PHP_EOL;
-}
+    public function hellow()
+    {
+        echo "hellow" . PHP_EOL;
+    }
 }

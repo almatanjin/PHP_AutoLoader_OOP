@@ -6,7 +6,6 @@ namespace Alma88\DemoPhp\Classes;
 
 use Alma88\DemoPhp\Traits\hellow;
 
-
 abstract class Person
 {
     use hellow;

@@ -6,6 +6,11 @@
         "psr-4": {
             "Alma88\\DemoPhp\\": "src/"
         },
+        
+        "classmap": [
+            "src/Classes/Person.php",
+            "src/Classes/Student.php"
+        ],
         "files":["src/Traits/trait.php"]
         
     },
