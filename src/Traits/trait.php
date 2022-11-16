@@ -9,3 +9,8 @@ trait hellow
         echo "hellow" . PHP_EOL;
     }
 }
+trait HasUuid{
+    public function isValid(string $uuid):bool{
+        return true;
+    }
+}

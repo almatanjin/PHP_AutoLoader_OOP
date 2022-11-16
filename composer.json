@@ -4,14 +4,15 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Alma88\\DemoPhp\\": "src/"
+            "Alma88\\DemoPhp\\": "src/",
+            "Alma88\\App\\":"app/"
         },
         
         "classmap": [
             "src/Classes/Person.php",
             "src/Classes/Student.php"
         ],
-        "files":["src/Traits/trait.php"]
+        "files":["src/Traits/trait.php","app/Func.php","app/Head.php"]
         
     },
     "minimum-stability": "dev",
